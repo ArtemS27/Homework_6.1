@@ -9,7 +9,7 @@ public class CountVacation {
                 money = money - expense;
             } else {
                 System.out.println("Месяц " + month + " Денег " + money + " Буду отдыхать. " + " Потратил -" + expense + ", затем ещё -" + (money - expense - ((money - expense) / 3)));
-                money = money - expense - (money - expense - ((money - expense) / 3));
+                money = (money - expense) / 3;
             }
 
         }
